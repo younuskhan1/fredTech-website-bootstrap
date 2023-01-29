@@ -1,0 +1,33 @@
+.carousel-item {
+    height: 60vw;
+    width: 100%;
+    background-size: cover;
+    max-height: 490px;
+}
+
+.carousel-caption h5 {
+    font-size: 5vw;
+}
+
+.carousel-caption p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.carousel-caption button {
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.5;
+}
