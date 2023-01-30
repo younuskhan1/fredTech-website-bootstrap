@@ -36,8 +36,20 @@
 }
 
 /* carousel css is ended */
-
+/* :horizontal cards css is started */
 .horizontal-image img {
     width: 100%;
     height: 100%;
 }
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button button {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* :horizontal cards css is ended */
