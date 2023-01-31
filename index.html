@@ -250,17 +250,38 @@
             </div>
         </section>
         <!-- e-learning Institute part is ended -->
-        <section class="container w-100 bg-primary rounded my-5 pb-5" style="height: 100%;">
+        <section class="container w-100 bg-primary rounded my-5 pb-3" style="height: 100%;">
             <div class="row">
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column p-5">
-                    <h2 class="text-white">Ready to join?</h2>
+                    <h1 class="text-white">Ready to join?</h1>
                     <p class="text-white text-center mt-3"> It is a long established fact that a reader will be
                         distracted by
                         the
                         readable content of a page when looking at its layout.</p>
                 </div>
                 <div class="col-md-5 d-flex justify-content-center align-items-center">
-                    <button class="btn bg-white fw-bold text-primary">Registration Now</button>
+                    <button class="btn bg-white fw-bold text-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Registration Now</button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Hello, Sir/Madam.....</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Are you sure to register now ?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
