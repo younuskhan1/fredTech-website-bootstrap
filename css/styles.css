@@ -53,3 +53,11 @@
 }
 
 /* :horizontal cards css is ended */
+.font-awesome {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.font-awesome i {
+    padding-left: 1rem;
+}
